@@ -1,0 +1,108 @@
+@media (prefers-color-scheme:dark) {
+    body {
+        background-color: var(--darkModePrimeryColor);
+    }
+
+    .l-header {
+        background-color: var(--darkModePrimeryColor);
+    }
+
+    .nav-item a {
+        color: var(--darkModePrimeryText);
+    }
+
+    .home-subtitle {
+        color: var(--darkModePrimeryText)
+    }
+
+    .section-title {
+        color: var(--darkModePrimeryText);
+    }
+
+    .menu-name {
+        color: var(--darkModePrimeryText);
+    }
+
+    .menu-preci {
+        color: var(--darkModePrimeryText);
+    }
+
+    .services-title {
+        color: var(--darkModePrimeryText);
+    }
+
+    .footer-title {
+        color: var(--darkModePrimeryText);
+    }
+
+    .menu-content {
+        background-color: var(--darkModeCard);
+    }
+
+    .menu-detail {
+        color: var(--darkModSecText);
+    }
+
+    .about-description {
+        color: var(--darkModSecText)
+    }
+
+    .services-description {
+        color: var(--darkModSecText)
+    }
+
+    .contact-description {
+        color: var(--darkModSecText)
+    }
+
+    .footer-description {
+        color: var(--darkModSecText)
+    }
+
+    ul li {
+        color: var(--darkModSecText)
+    }
+
+    .footer-link {
+        color: var(--darkModSecText)
+    }
+
+    .footer-copy {
+        color: var(--darkModSecText)
+    }
+
+    /* swiper */
+
+    .menu-content-swiper {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        background-color: var(--darkModeCard);
+        border-radius: 0.5rem;
+        box-shadow: 0 0.125em 0.25em rgba(3, 74, 40, .15);
+        padding: 0.75rem;
+    }
+
+    .menu-name-swiper {
+        font-size: 1.25em;
+        font-weight: 600;
+        color: var(--darkModePrimeryText);
+    }
+
+    .menu-preci-swiper {
+        font-size: 1em;
+        font-weight: 600;
+        color: var(--darkModePrimeryText);
+        margin-top: 0.625em;
+    }
+
+    .menu-detail-swiper {
+        color: var(--darkModSecText);
+    }
+
+    .pop-up-View-menu {
+        background-color: rgb(52, 52, 52);
+        box-shadow: 0 0.125em 0.25em rgba(3, 74, 40, .15);
+        color: var(--darkModePrimeryText);
+    }
+}
